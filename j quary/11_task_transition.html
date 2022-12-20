@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            background:linear-gradient(10deg,rgb(51, 79, 61),
+                                       rgb(207, 19, 19),                 
+                                       rgb(75, 102, 165),
+                                       rgb(228, 172, 3),
+                                       rgb(141, 126, 152));
+            background-size: cover;
+            background-attachment:fixed;
+        }
+        h1{
+            color: rgb(58, 42, 165);
+            text-shadow: 7px 7px 7px rgb(72, 51, 79);
+
+        }
+        h1:hover{
+            color: black;
+        }
+        .main{
+            height: 650px;
+            width: 900px;
+            border: 2px solid ;
+            outline: 3px solid rgb(207, 19, 19);
+            box-shadow: 10px 10px 10px rgb(103, 48, 48);
+            margin: auto;
+            display: flex;
+            display: grid;
+            grid-template-columns: auto auto auto;
+            background-color: indianred;
+            position: relative;
+        }
+        .one{
+            height: 200px;
+            width: 200px;
+            border:1px solid;
+            margin: 30px;
+            background: linear-gradient(rgb(207, 19, 19),rgb(182, 57, 57),rgb(152, 126, 126));
+            transition: width 1s, height 1s, transform 2s ;
+        }
+        .one:hover{
+            transform: rotateY(180deg);
+            font-size: 50px;
+            color: white;
+        }
+        .two{
+            height: 200px;
+            width: 200px;
+            border:1px solid;
+            margin: 30px;
+            background: linear-gradient(rgb(228, 172, 3),rgb(160, 126, 53),rgb(93, 93, 80));
+            transition: width 1s, height 1s, transform 2s ;
+        }
+        .two:hover{  
+            transform: rotate(180deg);
+            font-size: 50px;
+            color: white;
+        }
+        .three{
+            height: 200px;
+            width: 200px;
+            border:1px solid;
+            margin: 30px;
+            background: linear-gradient(rgb(59, 227, 8),rgb(90, 182, 57),rgb(128, 152, 126));
+            transition: width 1s, height 1s, transform 2s ;
+        }
+        .three:hover{
+            transform: rotate(540deg);
+            font-size: 50px;
+            color: white;
+        }
+        .four{
+            height: 200px;
+            width: 200px;
+            border:1px solid;
+            margin: 30px;
+            background: linear-gradient(rgb(3, 61, 120),rgb(75, 102, 165),rgb(128, 126, 152));
+            transition: width 1s, height 1s, transform 2s ;
+        }
+        .four:hover{
+            transform: scale(1.5);
+            font-size: 50px;
+            color: white;
+        }
+        .five{
+            height: 200px;
+            width: 200px;
+            border:1px solid;
+            margin: 30px;
+            background: linear-gradient(rgb(165, 7, 233),rgb(152, 69, 177),rgb(141, 126, 152));
+            transition: width 1s, height 1s, transform 1s ;
+
+        }
+        .five:hover{
+            transform: skew(-50deg);
+            font-size: 50px;
+            color: white;
+        }
+        .six{
+            height: 200px;
+            width: 200px;
+            border:1px solid;
+            margin: 30px;
+            background: linear-gradient(rgb(223, 5, 118),rgb(182, 57, 155),rgb(152, 126, 147));
+            transition: width 1s, height 1s, transform 2s ;
+
+        }
+        .six:hover{
+            font-size: 50px;
+            color: white;
+            transform: rotate(540deg);
+        }
+    </style>
+</head>
+<body>
+    <center><h1>TRANSFORM</h1></center>
+    <div class="main">
+        <div class="one">3D ROTATE</div>
+        <div class="two">2D ROTATE</div>
+        <div class="three"> ROTATE</div>
+        <div class="four">SCALE</div>
+        <div class="five">SKEW</div>
+        <div class="six">3D ROTATE</div>
+    </div>
+</body>
+</html>

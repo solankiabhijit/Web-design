@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>j query dropdown</title>
+    <style>
+        ul{
+            background-color: grey;
+            list-style-type: none;
+            margin: 0px;
+            padding: 0px;
+        }
+        ul li{
+            display: inline-block;
+            position: relative;
+            
+        }
+        ul li a{
+            text-decoration: none;
+            display: block;
+            padding: 8px 25px;
+            color: white;
+        }
+        ul li ul.dropdown{
+            display: none;
+        }
+        ul li:hover {
+            background-color: black;
+        }
+          ul li:hover ul.dropdown{
+            display: inline-block;
+            position: absolute;
+            
+        } 
+    </style>
+</head>
+<body>
+    <ul class="main">
+        <li><a href="#">home</a></li>
+        <li><a href="#">about</a>
+            <ul class="dropdown">
+                <li><a href="#">phon</a></li>
+                <li><a href="#">service</a></li>
+                <li><a href="#">teliphone</a></li>
+            </ul></li>
+        <li><a href="#">product</a>
+            <ul class="dropdown">
+                <li><a href="#">product 1</a></li>
+                <li><a href="#">product 4</a></li>
+                <li><a href="#">productn 3</a></li>
+            </ul>
+        </li>
+        <li><a href="#">service</a></li>
+        <li><a href="#">contact</a></li>
+    </ul>
+</body>
+</html>
+<script src="jquary.js"></script>
+<script>
+    $(document).ready(function(){
+        $('ul li a').click(function(){
+            $('.dropdown').slideDown();
+        });
+    });
+</script>

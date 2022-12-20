@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <script src="js/bootstrap.bundle.js"></script>
+</head>
+<body>
+
+    <div class="container mt-3">
+      <h3>Tooltip Example</h3>
+      <br>
+      <br> 
+      <button type="button" class="btn btn-primary" data-bs-toggle="tooltip" title="top!" data-bs-placement="top">
+        click me!
+     </button>
+     <br>
+
+     <button type="button" class="btn btn-success mt-3" data-bs-toggle="tooltip" title="right!" data-bs-placement="right">
+        click me!
+     </button>
+     <br>
+
+     <button type="button" class="btn btn-secondary mt-3" data-bs-toggle="tooltip" title="left!" data-bs-placement="left">
+        click me!
+     </button>
+     <br>
+
+     <button type="button" class="btn btn-warning mt-3" data-bs-toggle="tooltip" title="bottom!" data-bs-placement="bottom">
+        click me!
+     </button>
+     <br>
+
+</div>  
+    <script>
+    // Initialize tooltips
+    var tooltipTriggerList = [].slice.call(document.querySelectorAll('[data-bs-toggle="tooltip"]'))
+    var tooltipList = tooltipTriggerList.map(function (tooltipTriggerEl) {
+      return new bootstrap.Tooltip(tooltipTriggerEl)
+    })
+    </script>
+    
+    </body>
+    </html>

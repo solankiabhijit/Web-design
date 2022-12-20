@@ -1,0 +1,560 @@
+ /* heder class start */
+.header
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.header .one
+{
+    background: url(../image/Place\ Your\ Image\ Here\ \(Double\ Click\ to\ Edit\).png);
+    height: 800px;
+    width: 100%;
+    background-repeat: no-repeat;
+}
+ .one img 
+{
+    margin-left: 100px;
+    margin-top: 10px;
+    height: 50px;
+} 
+img.two
+{
+    margin:50px 0px 0px 300px;
+    height: 20px;
+}
+img.three
+{
+    height: 30px;
+    width: 22px;
+    margin-top: 50px;
+    margin-left: 300px;
+}
+.one h1
+{
+    font-size: 90px;
+    margin-top: 300px;
+    margin-left: 100px;
+    color: white;
+}
+.one p
+{
+    height: 50px;
+    width: 40%;
+    /* border: 2px solid red; */
+    color: white;
+    font-size: 20px;
+    margin-left: 35px;
+}
+.one button{
+    width: 200px;
+    border-radius: 5px;
+    font-size: 20px;
+    height:50px;
+    margin-top: 100px;
+    margin-left: 200px;
+    background-color:#e8631c;
+    color: white;
+}
+
+ /* heder class end */
+ 
+ /* first one class start */
+
+ .firstone
+{
+    background: url(../image/Shape.png);
+    height: 800px;
+    width: 100%;
+}
+.firstone h1 
+{
+    font-size: 60px;
+    padding-top: 50px;
+    margin-left: 550px;
+    color:white;
+}
+.firstone p
+{
+    height: 50px;
+    width: 40%;
+    color: white;
+    font-size: 20px;
+    margin-left: 450px;
+    margin-top: 50px;
+}
+.images
+{
+    background: url(../image/Background.png);
+    height:450px;
+    width: 300px;
+    margin:100px 0px 0px 50px;
+    margin-top: 30px;
+}
+.images .fone
+{
+    height: 300px;
+    width: 300px;
+    transition: height 2s,width 2s;
+}
+.images .fone:hover
+{
+    height: 200px;
+    width: 200px;
+    filter: invert(30%)
+}
+.images h1
+{
+    font-size: 40px;
+    margin-top: -50px;
+    margin-left: 70px;
+    color: white    ;
+}
+.images p
+{
+    height:250px;
+    width: 300px;    
+    margin-left: 20px;
+    margin-top: 10px;
+}
+.secondimage
+{
+    display: flex;
+    background: url(../image/Background.png);
+    height: 450px;
+    width: 300px;
+    margin-left: 550px;
+    margin-top: -450px;
+    overflow:hidden ;
+}
+.secondimage img
+{
+    height:300px;
+    width: 300px;
+    transition: width 2s,height 2s;
+ }
+
+.secondimage img:hover
+{
+    height:200px;
+    width: 200px;
+    margin-left: 100px;
+    box-shadow:  0 5px 10px WHITE;
+}
+.secondimage h1
+{
+    margin-left: -200px;
+    margin-top:250px;
+    font-size: 40px;
+} 
+.secondimage p
+{
+    height: 70px;
+    width: 300px;
+    margin-left: -170px;
+    margin-top: 350px;
+    /* margin-right: 100px; */
+    font-size: 20px;
+    /* border: 2px solid blue; */
+}
+.thirdimage
+{
+    background: url(../image/Background.png);
+    display: flex;
+    height: 450px;
+    width: 300px;
+    margin-left: 1100px;
+    margin-top: -450px;
+    overflow: hidden;
+}
+.thirdimage img
+{
+    width: 300px;
+    height: 300px;
+    overflow: hidden;
+}
+.thirdimage img:hover
+{
+    width: 300px;
+    height: 300px;
+    transform: rotate(180deg);
+}
+.thirdimage h1
+{
+    font-size: 40px;
+    color:white;
+    margin-left: -250px;
+    margin-top: 250px;
+}
+.thirdimage p
+{
+    margin-left: -240px;
+    margin-top: 350px;
+    font-size: 20px;
+    height: 80px;
+    width: 250px;
+}
+
+/* first one class end */
+
+/* secondone class start */
+
+.secondone
+{
+    background: url(../image/Shape\ 1.png);
+    height: 900px;
+    width: 100%;
+    /* display: flex; */
+}
+.secondone h1
+{
+    color: white;
+    margin-left: 500px;
+    font-size: 75px;
+}
+.secondone p
+{
+    color: white;
+    height: 50px;
+    width: 500px;
+    font-size: 20px;
+    margin-left: 500px;
+    margin-top: 50px;
+}
+.firstbox
+{
+    margin-left: 50px;
+    margin-top: 80px;
+    background-image: url(../image/Background\ \(1\).png);
+    background-repeat: no-repeat;
+    height: 500px;
+}
+.firstbox img
+{
+    margin-left: 130px;
+    margin-top: 50px;
+}
+.firstbox h1
+{
+    margin-left: 70px;
+}
+.firstbox p
+{
+    margin-left: 10px;
+    /* height: 80px; */
+    width: 400px;
+    margin-top: 10px;
+}
+.firstbox button
+{
+    height: 50px;
+    width: 200px;
+    font-size: 30px;
+    background-color: black;
+    color: white;
+    border-radius: 10px;
+    margin-top: 60px;
+    margin-left: 70px;
+}
+
+.secondbox
+{
+    margin-left: 560px;
+    margin-top: -490px;
+    background-image: url(../image/Background\ \(1\).png);
+    background-repeat: no-repeat;
+    height: 500px;
+}
+.secondbox img
+{
+    margin-left: 130px;
+    margin-top: 50px;
+}
+.secondbox h1
+{
+    margin-left: 10px;
+    font-size: 50px;
+}
+.secondbox p
+{
+    width: 400px;
+    height: 70px;
+    margin-left: 10px;
+    margin-top: 30px;
+}
+.secondbox button
+{
+    border-radius: 10px; height: 50px;
+    width: 200px;
+    font-size: 30px;
+    background-color: black;
+    color:white;
+    border-radius: 10px;
+    margin-top: 50px;
+    margin-left: 80px;
+}
+.thirdbox
+{
+    margin-left: 1080px;
+    margin-top: -490px;
+    background-image: url(../image/Background\ \(1\).png);
+    background-repeat: no-repeat;
+    height: 500px;
+}
+.thirdbox img
+{
+    margin-left: 120px;
+    margin-top: 50px;
+}
+.thirdbox h1
+{
+    margin-left: 10px;
+}
+.thirdbox p
+{
+    width: 400px;
+    height: 70px;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+.thirdbox button
+{
+    border-radius: 10px; height: 50px;
+    width: 200px;
+    font-size: 30px;
+    background-color: black;
+    color:white;
+    border-radius: 10px;
+    margin-top: 30px;
+    margin-left: 80px;
+}
+   /* secondone class end */
+
+   /* thirdone class start */
+
+.thirdone
+{
+    background-image:url(../image/Shape\ \(2\).png);
+    height: 1300px;
+    width: 100%;
+    /* display: flex; */
+}
+.firstimage img
+{
+    height: 600px;
+    width: 50%;
+}
+.firstimage h1
+{
+    color: white;
+    font-size:50px ;
+    margin-left: 950px;
+    margin-top: -510px;
+}
+.firstimage p
+{
+    height: 300px;
+    width: 600px;
+    font-size: 30px;
+    margin-left: 900px;
+    margin-top: 50px;
+    color: white;
+}
+.firstimage button
+{
+    height: 50px;
+    width: 300px;
+    font-size: 30px;
+    border-radius: 10px;
+    background-color: black;
+    color: white;
+    margin-left: 900px;
+    margin-top: -105px;
+}
+.whiteimage h1
+{
+    margin-top: 200px;
+    margin-left: 300px;
+    font-size: 50px;
+    color: white;
+}
+.whiteimage p
+{
+    height: 300px;
+    width: 500px;
+    font-size: 35px;
+    text-indent: 60px;
+    color: white;
+    margin-left: 50px;
+    margin-top: 30px;
+}
+.whiteimage button
+{
+    border-radius: 10px;
+    height: 50px;
+    width: 300px;
+    font-size: 30px;
+    border-radius: 10px;
+    background-color: black;
+    color: white;
+    margin-top: -105px;
+    margin-left: 150px;
+}
+.whiteimage img
+{
+    height: 650px;
+    width: 50%;
+    margin-top: -585px;
+    margin-left: 759px;
+}
+.back
+{
+    
+}
+.back img
+{
+    height: 600px;
+    width: 100%;
+}
+.back h1{
+    color: white;
+    margin-top: -550px;
+    margin-left: 600px;
+    font-size: 50px;
+}
+.back p
+{
+    width: 500px;
+    font-size: 20px;
+    color: white ;
+    margin-left: 550px;
+    margin-top: 50px;
+}
+.fontone h1
+{
+    color: white;
+    font-size: 50px;
+    margin-top: 100px;
+    margin-left: 200px;
+}
+.fontone p
+{
+    color: white;
+    font-size: 30px;
+    margin-left: 200px;
+}
+
+.secondfont h1
+{
+    color: white;
+    font-size: 50px;
+    margin-top: -120px;
+    margin-left: 700px;
+}
+.secondfont p
+{
+    color: white;
+    font-size: 30px;
+    margin-left: 700px;
+}
+
+.thirdfont h1
+{
+    color: white;
+    margin-left: 1200px;
+    margin-top: -110px;
+}
+.thirdfont p
+{
+    color: white;
+    font-size: 30px;
+    margin-left: 1200px;
+}
+.fourimage
+{
+    background-image: url(../image/Background\ \(1\).png);
+    height: 850px;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.fourimage img
+{
+    height: 700px;
+    margin-left: 350px;
+    margin-top: 135px;
+    width:700px;
+}
+
+
+
+
+/* ************************* media quary apply ******************************************/
+
+
+@media only screen and (max-width: 600px)
+{
+     /* heder class start */
+.header
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.header .one
+{
+    background: url(../image/Place\ Your\ Image\ Here\ \(Double\ Click\ to\ Edit\).png);
+    height: 800px;
+    width: 100%;
+    background-repeat: no-repeat;
+}
+ .one img 
+{
+    margin-left: 30px;
+    margin-top: 10px;
+    height: 50px;
+} 
+img.two
+{
+    height: 20px;
+    margin-top: -50px;
+    margin-left: 40px;
+    width: 350px;
+    margin-top: 30px;
+}
+img.three
+{
+    height: 20px;
+    width: 22px;
+    margin-top: -60px;
+    margin-left: 550px;
+}
+.one h1
+{
+    font-size: 60px;
+    /* margin-top: 300px; */
+    margin-left: 100px;
+    color: white;
+}
+.one p
+{
+    height: 50px;
+    width: 40%;
+    /* border: 2px solid red; */
+    color: white;
+    font-size: 20px;
+    margin-left: 35px;
+}
+.one button{
+    width: 200px;
+    border-radius: 5px;
+    font-size: 20px;
+    height:50px;
+    margin-top: 100px;
+    margin-left: 200px;
+    background-color:#e8631c;
+    color: white;
+}
+
+ /* heder class end */
+}

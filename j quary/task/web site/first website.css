@@ -1,0 +1,788 @@
+ /* main division start */
+.main
+{
+    background-color: aliceblue;
+    height: 800px;
+   
+}
+ img
+{
+    position: relative;
+    top: 20px;
+    left: 20px;
+}
+ul
+{
+    list-style-type: none;
+    background-color:white;
+    position: absolute;
+    left: 400px;
+    top: 0px;
+    width:800px;
+    border-radius: 50px;
+    padding-left: 10px;
+}
+ul li
+{
+    display: inline-block;
+    padding: 20px;
+}
+ul li a
+{
+    font-size: 30px;
+    color: rgb(14, 11, 11);
+    text-decoration: none;
+    font-size: 20px;
+}
+li a:hover
+{
+color: blue
+}
+
+.one
+{
+    position: absolute;
+    display: flex;
+   font-size: 40px;
+   top: 150px;
+   left: 650px;
+   color: blue ;
+}
+.two
+{
+    position: absolute;
+    display: flex;
+    color: black;
+    font-size: 35px;
+    top: 250px;
+    left: 510px;
+    text-transform: uppercase;
+}
+.three img
+{
+    position: absolute;
+    display: flex;
+    top: 380px;
+    left: 400px;
+    width: 650px;
+}
+.three button
+{
+    position: absolute;
+    display: flex;
+    border-radius: 30px;
+    padding: 10px 30px 10px 30px;
+    top: 700px;
+    left: 700px;
+    font-size: 20px;
+}
+.three button:hover
+{
+    background-color: #007bff;
+    color: white;
+}
+/* main division end */ 
+
+/* second division start */
+.second
+{
+position: relative;
+height: 700px;
+}
+.my img
+{
+    position: relative;
+    display: flex;
+    top: 150px;
+    left: 100px;
+    width: 400px;
+}
+.my2
+{
+    position: absolute;
+    display:flex;
+    left: 700px;
+    top:150px;
+    font-size: 30px;
+    height: 300px;
+    width: 600px;
+    border: 1px solid;
+    padding: 0px 90px 50px 20px;
+}
+.my2 p
+{
+    position: absolute;
+    display: flex;
+    top: 100px;
+    font-size: 25px;
+}
+.my2 button
+{
+    position: absolute;
+    display: flex;
+    top: 400px;
+    left: -50px;
+    font-size: 20px;
+    padding: 10px 20px 10px 20px;
+    border-radius: 50px;
+}
+.my2 button:hover
+{
+    background-color: #007bff;
+    color: white;
+}
+/* second divion end */
+
+/* third divion start */
+h1 b
+{
+    text-transform: capitalize;
+    display: flex;
+    position: relative;
+    padding-left: 580px;
+    padding-top: 100px;
+    font-size: 45px;
+}
+pre
+{
+    font-size: 20px;
+    padding-left: 200px;
+    text-transform: capitalize;
+    color: #666;
+    display: flex;
+}
+.third
+{
+    padding-left: 70px;
+}
+ /* first glasses start */
+.thirdone
+{
+    position: relative;
+    box-sizing: border-box;
+    height: 350px;
+    left: 10px;
+    max-width: 300px;
+    border:1px solid black;
+
+}
+.thirdone img
+{
+    height: 150px;
+    width: 250px;
+}
+.thirdone span
+{
+    position: absolute;
+    display: flex;
+    font-size: 20px;
+    top: 200px;
+    left: 100px;
+    color: #007bff;
+}
+.thirdone h3
+{
+    left: 110px;
+    position: absolute;
+    display: flex;
+    font-size: 20px;
+    top: 180px;
+    color: black;
+}
+.thirdone p
+{
+    left: 60px;
+    position: absolute;
+    display: flex;
+    font-size: 30px;
+    top: 200px;
+    color: black
+}
+
+     /* first glasess end */
+
+
+     /* second glasses start */
+.ttwo
+{
+   box-sizing: border-box;
+   position: relative;
+   border: 1px solid;
+   height: 350px;
+   width: 300px;
+   margin-left: 350px;
+   margin-top: -350px;
+}
+.ttwo img
+{
+    height: 150px;
+    width: 250px;
+}
+.ttwo span
+{
+    position: absolute;
+    display: flex;
+    font-size: 20px;
+    top: 200px;
+    left: 100px;
+    color: #007bff;
+}
+.ttwo h3
+{
+    left: 110px;
+    position: absolute;
+    display: flex;
+    font-size: 20px;
+    top: 180px;
+    color: black;
+}
+.ttwo p
+{
+    left: 60px;
+    text-transform: capitalize;
+    position: absolute;
+    display: flex;
+    font-size: 30px;
+    top: 200px;
+    color: black;
+}
+    /* second glasses end */
+
+
+        /* third glasses :start */
+.tthree
+{
+   box-sizing: border-box;
+   position: relative;
+   border: 1px solid;
+   height: 350px;
+   width: 300px;
+   margin-left: 690px;
+   margin-top: -350px;
+}
+.tthree img
+{
+    height: 150px;
+    width: 250px;
+}
+.tthree span
+{
+    position: absolute;
+    display: flex;
+    font-size: 20px;
+    top: 200px;
+    left: 100px;
+    color: #007bff;
+}
+.tthree h3
+{
+    left: 110px;
+    position: absolute;
+    display: flex;
+    font-size: 20px;
+    top: 180px;
+    color: black;
+}
+.tthree p
+{
+    left: 60px;
+    text-transform: capitalize;
+    position: absolute;
+    display: flex;
+    font-size: 30px;
+    top: 200px;
+    color: black;
+}
+
+      /* third glasses end */
+
+
+   /* t four glasses :start */
+
+.tfour
+{
+   box-sizing: border-box;
+   position: relative;
+   border: 1px solid;
+   height: 350px;
+   width: 300px;
+   margin-left: 1030px;
+   margin-top: -350px;
+}
+.tfour img
+{
+    height: 150px;
+    width: 250px;
+}
+.tfour span
+{
+    position: absolute;
+    display: flex;
+    font-size: 20px;
+    top: 200px;
+    left: 100px;
+    color: #007bff;
+}
+.tfour h3
+{
+    left: 110px;
+    position: absolute;
+    display: flex;
+    font-size: 20px;
+    top: 180px;
+    color: black;
+}
+.tfour p
+{
+    left: 60px;
+    text-transform: capitalize;
+    position: absolute;
+    display: flex;
+    font-size: 30px;
+    top: 200px;
+    color: black;
+}
+
+   /* t four glasses end */
+
+
+   /* t five glasses :start */
+
+.tfive
+{
+   box-sizing: border-box;
+   position: relative;
+   border: 1px solid;
+   height: 350px;
+   width: 300px;
+   margin-left: 10px;
+   margin-top: 40px;
+}
+.tfive img
+{
+    height: 150px;
+    width: 250px;
+}
+.tfive span
+{
+    position: absolute;
+    display: flex;
+    font-size: 20px;
+    top: 200px;
+    left: 100px;
+    color: #007bff;
+}
+.tfive h3
+{
+    left: 110px;
+    position: absolute;
+    display: flex;
+    font-size: 20px;
+    top: 180px;
+    color: black;
+}
+.tfive p
+{
+    left: 60px;
+    text-transform: capitalize;
+    position: absolute;
+    display: flex;
+    font-size: 30px;
+    top: 200px;
+    color: black;
+}
+    /* t five glasses end *
+
+
+ /* t six glasses start */
+
+ .tsix
+{
+   box-sizing: border-box;
+   position: relative;
+   border: 1px solid;
+   height: 350px;
+   width: 300px;
+   margin-left: 350px;
+   margin-top: -350px;
+}
+.tsix img
+{
+    height: 150px;
+    width: 250px;
+}
+.tsix span
+{
+    position: absolute;
+    display: flex;
+    font-size: 20px;
+    top: 200px;
+    left: 100px;
+    color: #007bff;
+}
+.tsix h3
+{
+    left: 110px;
+    position: absolute;
+    display: flex;
+    font-size: 20px;
+    top: 180px;
+    color: black;
+}
+.tsix p
+{
+    left: 60px;
+    text-transform: capitalize;
+    position: absolute;
+    display: flex;
+    font-size: 30px;
+    top: 200px;
+    color: black;
+}
+
+/* t six glasses end */
+
+
+/* t seven glasses start */
+
+.tseven
+{
+   box-sizing: border-box;
+   position: relative;
+   border: 1px solid;
+   height: 350px;
+   width: 300px;
+   margin-left: 690px;
+   margin-top: -350px;
+}
+.tseven img
+{
+    height: 150px;
+    width: 250px;
+}
+.tseven span
+{
+    position: absolute;
+    display: flex;
+    font-size: 20px;
+    top: 200px;
+    left: 100px;
+    color: #007bff;
+}
+.tseven h3
+{
+    left: 110px;
+    position: absolute;
+    display: flex;
+    font-size: 20px;
+    top: 180px;
+    color: black;
+}
+.tseven p
+{
+    left: 60px;
+    text-transform: capitalize;
+    position: absolute;
+    display: flex;
+    font-size: 30px;
+    top: 200px;
+    color: black;
+}
+
+/* t seven glasses end */
+
+
+/* t eight glasses start */
+
+.teight
+{
+   box-sizing: border-box;
+   position: relative;
+   border: 1px solid;
+   height: 350px;
+   width: 300px;
+   margin-left: 1030px;
+   margin-top: -350px;
+}
+.teight img
+{
+    height: 150px;
+    width: 250px;
+}
+.teight span
+{
+    position: absolute;
+    display: flex;
+    font-size: 20px;
+    top: 200px;
+    left: 100px;
+    color: #007bff;
+}
+.teight h3
+{
+    left: 110px;
+    position: absolute;
+    display: flex;
+    font-size: 20px;
+    top: 180px;
+    color: black;
+}
+.teight p
+{
+    left: 60px;
+    text-transform: capitalize;
+    position: absolute;
+    display: flex;
+    font-size: 30px;
+    top: 200px;
+    color: black;
+}
+.third button 
+{
+    position: relative;
+    height: 50px;
+    width: 170px;
+    border-radius: 50px;
+    font-size: 20px;
+    top: 100px;
+    margin-left: 550px;
+}
+.third button:hover
+{
+    color: white;
+    background-color: #007bff;
+}     
+/* t eight glasses end */
+
+
+
+
+/* four main division */
+ .four
+{
+    position: relative;
+    padding-top: 200px;
+    width: 100%;
+}
+
+.fone 
+{
+    width: 40%;
+}
+
+.fone img
+{
+    width: 100%;
+    height: 650px;
+}
+
+.ftwo
+{
+    width: 60%;
+    height: 500px;
+    position: absolute;
+    border: 2px solid;
+    margin-left: 600px;
+    margin-top: -630px;
+    background-color: black;
+}
+.ftwo h1
+{
+    margin-left: -500px;
+    color: white;
+}
+.ftwo pre
+{
+    margin-left: -270px;
+    color: white;
+}
+.ftwo button
+{
+    border-radius: 50px;
+    border: 2px solid white;
+    background-color: black;
+    color: white;
+    width: 250px;
+    height: 50px;
+    position: relative;
+    margin-left: -700px;
+    margin-top: 200px;
+    font-size: 15px;
+}
+.ftwo button:hover
+{
+    background-color: #007bff;
+    color: white;
+}
+
+/* four division end */
+
+
+/* five division start */
+.ffive
+{
+    position: relative;
+    display: flex;
+    padding-top: 50px;
+}
+.aone h2
+{
+    position: relative;
+    padding-left: 550px;
+    font-size: 40px;
+}
+.aone p
+{
+    font-size: 22px;
+    padding-left: 250px;
+    padding-top: -10px;
+    display: flex;
+}
+.atwo
+{
+    height: 270px;
+    width: 1000px;
+    border:1px solid;
+    position: absolute;
+    top: 300px;
+    margin-left: 250px;
+    padding-left: 200px;
+}
+.atwo img
+{
+    position: relative;
+    left: -300px;
+    margin-top: 25px;
+}
+.atwo h2
+{
+    position: absolute;
+    margin-left: -50px;
+    margin-top: -130px;
+    font-size: 35px;
+    text-transform: lowercase;
+}
+.atwo pre
+{
+    position: absolute;
+    font-size: 19px;
+    margin-left: -380px;
+    top: 100px;
+    color: black;
+}
+.athree img
+{
+    position: relative;
+    height: 100px;
+    width: 200px;
+    padding-top: 530px;
+    margin-left: -450px;
+}
+
+/* five division end */
+
+/* six division start */
+.six
+{
+    background: url(images/map.jpg);
+    height: 600px;
+    position: relative;
+}
+
+
+.seven
+{
+    height: 300px;
+    width: 400px;
+    margin-left: 110px;
+    position: relative;
+    display: grid;
+    top: -600px;
+    background-color: white;
+    margin-top: 50px;
+}
+.seven h2
+{
+    text-align: center;
+
+    font-size: 30px;
+    padding-top: 0px;
+}
+.seven button
+{
+    height: 50px;
+    width: 100%;
+    border-radius: 50px;
+    background-color: #03cafc;
+    color: white;
+    text-transform: uppercase;
+    font-size: 20px;
+    margin-top:10px ;
+}
+.seven button:hover
+{
+    background-color: #6c757d;
+    animation-delay: 2s;
+}
+
+/* six division end */
+
+/* footer division start */
+.footer
+{
+    background-color:#252525;
+    height: 300px;
+    position: relative;
+    margin-top: -500px;
+    color: azure;
+}
+.footer1
+{
+    position: absolute;
+    margin-left: 450px;
+    margin-top: 100px;
+    height: 300px;
+    font-size: 50px;
+}
+.footer1 p
+{
+    margin-left: -20px;
+    margin-top: 30px;
+    font-size: 25px;
+}
+.footer2
+{
+    position: absolute;
+    margin-left: 750px;
+    margin-top: 100px;
+    height: 300px;
+    font-size: 50px;
+}
+.footer2 p
+{
+    margin-left: -40px;
+    margin-top: 40px;
+    font-size: 22px;
+}
+.footer3
+{   
+    position: absolute;
+    margin-left: 1100px;
+    margin-top: 100px;
+    height: 300px;
+    font-size: 50px;
+}
+.footer3 p
+{
+    margin-top: 40px;
+    margin-left: -40px;
+    font-size: 23px;
+}
+ .footer span
+{
+    position: relative;
+    top: 350px;
+    color: #292929;
+    font-size: 20px;
+    margin-left: 500px;
+}  

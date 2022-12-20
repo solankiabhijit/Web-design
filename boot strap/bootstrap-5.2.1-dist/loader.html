@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+<style>
+      .one img
+      {
+  width: 100px;
+  animation: mymove 2.5s linear;
+}
+
+@keyframes mymove {
+  from {transform: rotate(360deg);}
+}
+</style>
+    <script>
+      setTimeout(() => {
+        document.getElementById('one').style.color="red"
+      },2700);
+    </script>
+</head>
+<body>
+  <div class="one">
+    <h1 id="one"> good morning! </h1>
+    <img src="D:\solanki abhijit\boot strap\loader task\loader image.jpg">
+  </div>
+</body>
+</html>

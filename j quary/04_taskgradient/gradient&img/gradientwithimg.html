@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html>
+    <head>
+      <style>
+        h1{
+            text-align: center;
+            text-decoration:underline;
+        }
+        body{
+            background-image :radial-gradient(rgba(122, 142, 222, 0.657),
+                                              rgba(222, 18, 96, 0.657),
+                                              rgba(22,22,22,0.6)),
+                                              url(background.jpg);
+            background-attachment: fixed;
+            background-repeat:no-repeat;
+            background-size: cover;
+        }
+        #main{
+            width:50%;
+            /* border:2px solid blueviolet; */
+            margin-left: 350px;
+            margin-top: 50px;
+            height: 400px;
+        }
+        .one img{
+            float:left;
+            width:50%;
+            height: 400px;
+        }
+        .two{
+            float:left;
+            width:50%;
+            height: 400px;
+            background-color: aqua;
+        }
+        .two table{
+            height:400px;
+
+        }
+      </style>  
+    </head>
+    <body>
+        <h1>RAGISTER-FORM</h1>
+    <div id="main">
+        <div class="one">
+            <img src="form.jpg">
+        </div>
+        <div class="two">
+        <form method="post"name="ragister_form"action="14list.html"enctype="multipart/form-data">
+            <table border="1"align="center">
+                <tr>
+                    <th>Name:</th>
+                    <td><input type="text"name="name"></td>
+                </tr>
+                <tr>
+                    <th>Email:</th>
+                    <td><input type="Email"name="Email"></td>
+                </tr>
+                <tr>
+                    <th>Password:</th>
+                    <td><input type="password"name="password"></td>
+                </tr>
+                <tr>
+                    <th>Bio:</th>
+                    <td><textarea name="Bio"></textarea></td>
+                </tr>
+                <tr>
+                    <th>Photo:</th>
+                    <td><input type="file"name="photo"></td>
+                </tr>
+                <tr>
+                    <th>Gender:</th>
+                    <td><input type="radio"name="gender"value="Male">Male
+                        <input type="radio"name="gender"value="Female">Female
+                        <input type="radio"name="gender"value="other">other
+                    </td>
+                </tr>
+                <tr>
+                    <th>Langauge:</th>
+                    <td>
+                        <input type="checkbox"name="langauge"value="Gujrati">Gujrati
+                        <input type="checkbox"name="langauge"value="Hindi">Hindi
+                        <input type="checkbox"name="langauge"value="English">English
+                    </td>
+                </tr>
+                <tr>
+                    <th>Country:</th>
+                    <td>
+                        <select name="country">
+                            <option value="India">India</option>
+                            <option value="Canada">Canada</option>
+                            <option value="USA">USA</option>
+                    </td>
+                </tr>
+                <tr>
+                    <th align="center"colspan="2">
+                        <input type="submit"name="submit"value="Submit">
+                        <input type="reset" name="reset"value="reset">
+                    </th>
+                </tr>
+            </table>
+        </form>
+        </div>
+    </div>
+    </body>
+</html>
